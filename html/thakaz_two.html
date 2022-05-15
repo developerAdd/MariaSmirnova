@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../CSS/font_face.css">
+  <link rel="stylesheet" href="../CSS/about.css">
+  <link rel="stylesheet" href="../CSS/thakaz_two.css">
+  <link rel="stylesheet" href="../CSS/pop-up.css">
+  <title>ЗАКАЗ</title>
+</head>
+<body>
+  <div class="page">
+    <nav class="header">
+      <div class="container">
+        <div class="burger">
+          <span class="burger_one"></span>
+          <span class="burger_two"></span>
+          <span class="burger_three"></span>
+        </div>
+       <div  class="header__nav">
+         <ul>
+           <li class="header__nav__element"><a href="../index.html">ГЛАВНАЯ</a></li>
+           <li class="header__nav__element"><a href="our.html">О НАС</a></li>
+           <li class="header__nav__element"><a href="divans.html">ДИВАН</a></li>
+           <li class="header__nav__element"><a href="podushka__main.html">ПОДУШКИ</a></li>
+           <li class="header__nav__element"><a href="cover.html">КОВРЫ</a></li>
+           <li class="header__nav__element"><a href="foto_gallery.html">ФОТОГАЛЛЕРЕЯ</a></li>
+         </ul>
+         <img src="../svg/remove_white.svg" alt="" class="remove__mobile">
+         <div class="header__mobile__footer">
+           <img src="../svg/faceboke_grey.svg" alt="">
+           <img src="../svg/tiktok_grey.svg" alt="">
+           <img src="../svg/inst_grey.svg" alt="">
+         </div>
+       </div>
+       <div class="header__logo">
+         <img src="../svg/logo_white.svg" alt="logo">
+       </div>
+       <div class="header__icons">
+         <div class="header__pepole">
+           <img src="../svg/peppole.svg" alt="peppole">
+           <span class="header__pepole__text"></span>
+         </div>
+         <div class="header__exit">
+           <span class="header__exit__text">Выйти из аккаунта</span>
+           <img src="../svg/remove_white.svg" alt="remove">
+         </div>
+         <div class="header__icons__one">
+           <img src="../svg/poisk_white.svg" alt="poisk">
+         </div>
+         <div class="header__icons__two"  id="korz">
+           <img src="../svg/korz_white.svg" alt="korzina">
+         </div>
+       </div>
+      </div>
+    </nav>
+    <main class="content">
+     <h1 class="content__main_text">ОФОРМЛЕНИЕ ЗАКАЗА</h1>
+     <div class="content__row">
+       <div class="content__form">
+         <div class="content__form__next">
+           <span class="content__form__next__line"></span>
+           <div class="content__form__next__colum">
+             <span class="bolvan"></span>
+             <span class="content__form__next__colum__clc"></span>
+             <span class="content__form__next__colum__span">1 Доставка</span>
+           </div>
+           <div class="content__form__next__colum">
+             <img src="../svg/mac.svg" alt="c" class="content__form__next__colum__img">
+             <span class="content__form__next__colum__clc"></span>
+             <span class="content__form__next__colum__span _main">2. Оплата</span>
+           </div>
+           <div class="content__form__next__colum">
+             <span class="bolvan"></span>
+             <span class="content__form__next__colum__clc _none"></span>
+             <span class="content__form__next__colum__span">3. Ваш заказ</span>
+           </div>
+         </div>
+         <div class="content__form__oplata">
+          <h2 class="content__form__oplata__text">Выберите способ оплаты</h2>
+          <div class="content__form__oplata__row">
+            <button class="content__form__oplata__row__button _paypay">
+              <img src="../svg/paypal.svg" alt="">
+            </button>
+            <button class="content__form__oplata__row__button _debet">
+              <img src="../svg/debet_card.svg" alt="debet">
+              <span>Дебетовая или кредитная карта</span>
+            </button>
+          </div>
+          <h2 class="content__form__data__text">ДАННЫЕ КАРТЫ</h2>
+          <div class="content__form_data__pepole__name__col">
+            <span class="content__form__oplatname __text">Имя владельца карты</span>
+            <div class="content__form__oplat_i">
+              <input type="text" name="" value="">
+              <img src="../svg/card.svg" alt="">
+          </div>
+        </div>
+        <div class="content__form_data__pepole _center">
+          <div class="content__form_data__pepole__name__col_card_main">
+            <span class="content__form_data__pepole__name __text">Номер карты</span>
+            <input type="text" class="content__form_data__pepole__card __input __numbercerd" type="number">
+          </div>
+          <div class="content__form_data__pepole__posname__col_card">
+            <span class="content__form_data__pepole__posname __text">Срок действия</span>
+            <input type="text" class="content__form_data__pepole__card_two __input __daatcerd" type="number" placeholder="ММ / ГГ">
+          </div>
+        </div>
+        <div class="content__form_data__pepole__name__col">
+          <span class="content__form__oplatname __text">Код безопасности</span>
+          <input class="content__form__oplat_cod __input" type="number">
+      </div>
+      <div class="content__form_data__cheked __one">
+        <input id="label_data" type="checkbox" class="content__form_data__cheked__box" name="" value="">
+        <label class="content__form_data__label" for="label_data">Сохранить платежные данные</label>
+      </div>
+      <button type="button" class="card_oplata_button" name="button">ОПЛАТИТЬ ЗАКАЗ</button>
+         </div>
+         <div class="content__form_data">
+           <h2 class="content__form_data__main_text">ДОБАВЬТЕ ПЛАТЕЖНЫЙ АДРЕС ДЛЯ ВЫБРАННОЙ БАНКОВСОЙ КАРТЫ</h2>
+           <p class="content__form_data__about_text">Пожалуйста, заполните графы “Имя” и “Фамилия” латинскими буквами и соотвествии с паспортными данными. Остальнные поля можно заполнить как латиницей, так и кириллицей.</p>
+           <div class="content__form_data__pepole">
+             <div class="content__form_data__pepole__name__col">
+               <span class="content__form_data__pepole__name __text">Имя*</span>
+               <input type="text" class="content__form_data__pepole__name __input">
+             </div>
+             <div class="content__form_data__pepole__posname__col _name">
+               <span class="content__form_data__pepole__posname __text">Фамилия *</span>
+               <input type="text" class="content__form_data__pepole__posname __input">
+             </div>
+           </div>
+           <span class="content__form_data__name">Страна или регион *</span>
+           <div class="content__form_data__contry">
+             <img src="../svg/russu.svg" alt="ru" class="content__form_data__contry__russu">
+             <select class="content__form_data__contry__select">
+               <option>Российская Федерация</option>
+             </select>
+             <div class="content__form_data__contry__spisok">
+               <img src="../svg/remove_bot.svg" alt="re">
+             </div>
+           </div>
+           <span class="content__form_data__adress">Адрес *</span>
+           <div class="block_js">
+             <input type="text" class="content__form_data__adress_i __input">
+             <input type="text" class="content__form_data__adress_i __input">
+           </div>
+           <div class="content__form_data__adress__plus">
+             <img src="../svg/remove_bot.svg" alt="" class="content__form_data__adress__plus__spisok">
+             <span class="content__form_data__adress__plus__spisok_t __text">Добавить строку</span>
+           </div>
+           <div class="content__form_data__city">
+             <div class="content__form_data__pepole__posname__col">
+               <span class="content__form_data__city__local __text">Город *</span>
+               <input type="text" class="content__form_data__city__local __input">
+             </div>
+             <div class="content__form_data__pepole__posname__col">
+               <span class="content__form_data__city__radius __text">Область</span>
+               <input type="text" class="content__form_data__city__radius __input">
+             </div>
+           </div>
+           <div class="content__form_data__city">
+             <div class="content__form_data__pepole__posname__col">
+               <span class="content__form_data__city__local __text">Индекс *</span>
+               <input type="text" class="content__form_data__city__local __input">
+             </div>
+             <div class="content__form_data__pepole__posname__col">
+               <span class="content__form_data__city__radius __text">Номер телефона *</span>
+               <input type="text" class="content__form_data__city__radius __input">
+             </div>
+           </div>
+           <div class="content__form_data__cheked">
+             <input id="label" type="checkbox" class="content__form_data__cheked__box" name="" value="">
+             <label class="content__form_data__label" for="label">Использовать как платежный адрес</label>
+           </div>
+           <div class="content__form_data__statuc">
+             <span class="star">*</span>
+             <span>Поля обязательные для заполнения</span>
+           </div>
+         </div>
+       </div>
+       <div class="content__status">
+         <h1 class="content__status__main_text">Сумма заказа</h1>
+         <div class="content__status__row__1">
+           <img src="../img/pod_2.webp" alt="" class="content__status__row__1__img">
+           <span class="content__status__row__1_p price">241 000 ₽</span>
+         </div>
+         <div class="content__status__row__2">
+           <span class="content__status__row__2_t text">Доставка</span>
+           <span class="content__status__row__2_p price">500 ₽</span>
+         </div>
+         <div class="content__status__row__3">
+           <span class="content__status__row__3_text">Итого</span>
+           <span class="content__status__row__3_price">RUB 241 000 ₽</span>
+         </div>
+         <button class="content__status__button">
+           <img src="../svg/Vector.svg" alt="" class="content__status__button__img">
+           <span class="content__status__button__span">Далее</span>
+         </button>
+       </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="footer__coulum__one">
+       <div class="footer__coulum__text_one">
+         <a href=""><span>УСЛОВИЯ ПОКУПКИ</span></a>
+         <a href=""><span>ДОСТАВКА / ВОЗВРАТ</span></a>
+         <a href="text.html"><span>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</span></a>
+       </div>
+       <div class="footer__coulum__text_two">
+      <span>© 2021 MARIA SMIRNOVA</span>
+       </div>
+     </div>
+     <div class="footer__coulum__two">
+       <div class="footer__coulum__text_one">
+         <a href="our.html"><span>О НАС</span></a>
+         <a href="divans.html"><span>ДИВАН</span></a>
+         <a href="podushka__main.html"><span>ПОДУШКИ</span></a>
+       </div>
+       <div class="footer__coulum__text_two __ind">
+         <span>Адрес: Москва, ул. Профсоюзная, 84/32</span>
+       </div>
+     </div>
+     <div class="footer__coulum__three">
+       <div class="footer__coulum__text_one">
+         <a href="cover.html"><span>КОВРЫ</span></a>
+         <a href="foto_gallery.html"><span>ФОТОГАЛЛЕРЕЯ</span></a>
+         <a href="../index.html"><span>ГЛАВНАЯ</span></a>
+       </div>
+     </div>
+     <div class="footer__coulum__four">
+       <div class="footer__coulum__text_one">
+         <span>+7 (995) 780-52-11</span>
+         <span>mexsmirnova@gmail.com</span>
+       </div>
+       <div class="footer__coulum__icons_two">
+         <img src="../svg/facebook.svg" alt="">
+         <img src="../svg/tiktok.svg" alt="">
+         <img  class="inst" src="../svg/inst.svg" alt="">
+       </div>
+     </div>
+     <div class="footer__mobile">
+       <div class="footer__mobile__block__1">
+         <div class="block_1">
+           <a href=""><span>УСЛОВИЯ ПОКУПКИ</span></a>
+           <a href=""><span>ДОСТАВКА / ВОЗВРАТ</span></a>
+           <a href="text.html"><span>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</span></a>
+         </div>
+         <div class="block_2">
+           <a href="our.html"><span>О НАС</span></a>
+           <a href="divans.html"><span>ДИВАН</span></a>
+           <a href="podushka__main.html"><span>ПОДУШКИ</span></a>
+           <a href="cover.html"><span>КОВРЫ</span></a>
+           <a href="foto_gallery.html"><span>ФОТОГАЛЛЕРЕЯ</span></a>
+           <a href="../index.html"><span>ГЛАВНАЯ</span></a>
+         </div>
+       </div>
+       <div class="footer__mobile__block__2">
+         <div class="block_1">
+           <span>+7 (995) 780-52-11</span>
+           <span>mexsmirnova@gmail.com</span>
+         </div>
+         <div class="block_2">
+           <span>Адрес: Москва, ул. Профсоюзная, 84/32</span>
+         </div>
+       </div>
+       <div class="footer__mobile__block__3">
+         <div class="block_1">
+           <span>© 2021 MARIA SMIRNOVA</span>
+         </div>
+         <div class="block_2_img">
+           <img src="../svg/facebook.svg" alt="">
+           <img src="../svg/tiktok.svg" alt="">
+           <img  class="inst" src="../svg/inst.svg" alt="">
+         </div>
+       </div>
+     </div>
+    </footer>
+  </div>
+  <div class="popup__goods">
+    <div class="popup__goods__header">
+      <img id="popup__goods__header__remove" src="../svg/remove_white.svg" alt="">
+    </div>
+    <div class="popup__goods__content">
+      <h1 class="popup__goods__content__main_text">КОРЗИНА</h1>
+      <div class="popup__goods__content__about_text">
+        <h3 class="popup__goods__content__about_text__1">ТОВАР</h3>
+        <h3 class="popup__goods__content__about_text__2">КОЛИЧЕСТВО</h3>
+        <h3 class="popup__goods__content__about_text__3">ЦВЕТ</h3>
+        <h3 class="popup__goods__content__about_text__4">ВСЕГО</h3>
+      </div>
+      <div class="popup__goods__content__block">
+        <div class="popup__goods__content__block__goods">
+          <div class="popup__goods__content__block__goods__img">
+            <img src="../img/pod_2.webp" alt="">
+          </div>
+          <div class="popup__goods__content__block__info">
+            <span class="popup__goods__content__block__text">МЕХОВОЙ ДИВАН LEMUR</span>
+            <span class="popup__goods__content__block__price">230 000 ₽</span>
+          </div>
+        </div>
+        <div class="popup__goods__content__block__row">
+          <div class="popup__goods__content__block__number">
+            <div class="popup__goods__content__block__number__input">
+              <img src="../svg/minus.svg" id="minus" class="minus__input">
+              <input name="input" type="number" id="col" value="1">
+              <img  src="../svg/plus.svg" id="plus" class="plus__input">
+            </div>
+            <span class="popup__goods__content__block__number__delete _pc">УДАЛИТЬ</span>
+          </div>
+          <div class="popup__goods__content__block__color">
+            <div class="popup__goods__content__block__color__container">
+              <div class="popup__goods__content__block__color__container__block">
+                <input type="radio" name="korz" checked class="korz__input __1">
+                <input type="radio" name="korz" class="korz__input __2">
+                <input type="radio" name="korz" class="korz__input __3">
+                <input type="radio" name="korz" class="korz__input __4">
+              </div>
+              <div class="popup__goods__content__block__color__container__onclick">
+                <img src="../svg/remove_bot.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <span class="popup__goods__content__block__number__delete _mb">УДАЛИТЬ</span>
+        </div>
+        <div class="popup__goods__content__block__summe">
+          <span id="summe" class="summe_price">230 000 ₽</span>
+        </div>
+      </div>
+      <div class="popup__goods__content__block">
+        <div class="popup__goods__content__block__goods">
+          <div class="popup__goods__content__block__goods__img">
+            <img src="../img/pod_2.webp" alt="">
+          </div>
+          <div class="popup__goods__content__block__info">
+            <span class="popup__goods__content__block__text">МЕХОВОЙ ДИВАН LEMUR</span>
+            <span class="popup__goods__content__block__price">230 000 ₽</span>
+          </div>
+        </div>
+        <div class="popup__goods__content__block__row">
+          <div class="popup__goods__content__block__number">
+            <div class="popup__goods__content__block__number__input">
+              <img src="../svg/minus.svg" id="minus" class="minus__input">
+              <input name="input" type="number" id="col" value="1">
+              <img  src="../svg/plus.svg" id="plus" class="plus__input">
+            </div>
+            <span class="popup__goods__content__block__number__delete _pc">УДАЛИТЬ</span>
+          </div>
+          <div class="popup__goods__content__block__color">
+            <div class="popup__goods__content__block__color__container">
+              <div class="popup__goods__content__block__color__container__block">
+                <input type="radio" name="korz_1" checked class="korz__input __1">
+                <input type="radio" name="korz_1" class="korz__input __2">
+                <input type="radio" name="korz_1" class="korz__input __3">
+                <input type="radio" name="korz_1" class="korz__input __4">
+              </div>
+              <div class="popup__goods__content__block__color__container__onclick">
+                <img src="../svg/remove_bot.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <span class="popup__goods__content__block__number__delete _mb">УДАЛИТЬ</span>
+        </div>
+        <div class="popup__goods__content__block__summe">
+          <span id="summe" class="summe_price">230 000 ₽</span>
+        </div>
+      </div>
+      <div class="popup__goods__content__finish_summe">
+      <span id="finish_summe" class="popup__goods__content__finish_summe__main_text">ВСЕГО: 0009</span>
+      <span class="popup__goods__content__finish_summe__about_text">Стоимость доставки рассчитывается при оформлении заказа</span>
+      <div class="popup__goods__content__finish_summe_thakath">
+        <button type="button" name="button" class="popup__goods__content__finish_summe_thakath__button__true">ОФОРМИТЬ ЗАКАЗ</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <script src="../JS/goods.js"></script>
+  <script src="../JQuery/jquety.js"></script>
+  <script src="../JS/slick.min.js"></script>
+  <script src="../JS/burger.js"></script>
+  <script src="../JS/thakaz_two.js"></script>
+</body>
+</html>
