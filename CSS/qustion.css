@@ -1,0 +1,210 @@
+.container_content {
+  max-width: 1920px;
+  width: 100%;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content {
+  margin-top: 73px;
+  max-width: 1920px;
+  width: 24.1665%;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subscribe__checkbox {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  color: #111111;
+  padding-left: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  position: relative;
+  margin-top: 14px;
+}
+
+.content__main_text {
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #111111;
+}
+
+.content__block {
+  width: 100%;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.content__block__text {
+  width: 100%;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #111111;
+  margin-top: 33px;
+}
+
+.content__block__input {
+  width: 100%;
+  height: 44px;
+  border: none;
+  border: 1px solid #999999;
+  border-radius: 4px;
+}
+.content__block__input:focus,
+.content__block__input:active,
+.content__block__input:hover{
+    border: 1px solid #111111;
+}
+
+.message {
+  max-width: 100%;
+  min-height: 160px;
+  resize: none;
+  height: auto;
+}
+
+.subscribe__checkbox__input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+}
+
+.subscribe__checkbox__label {
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.subscribe__checkbox__label::before {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.subscribe__checkbox__input:checked + .subscribe__checkbox__label::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  border-radius: 2px;
+  top: 5px;
+  left: 3px;
+  background-color: #000000;
+}
+
+.content__button {
+  border: none;
+  height: 46px;
+  width: 100%;
+  background: #242424;
+  font-family: "FuturaMediumC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-bottom: 96px;
+}
+
+@media (max-width: 1600px) {
+  .content {
+    width: 40%;
+  }
+}
+@media (max-width: 1050px) {
+  .content {
+    width: 60%;
+  }
+}
+@media (max-width: 650px) {
+  .content {
+    width: 80%;
+  }
+
+  .content {
+    margin-top: 38px;
+  }
+
+  .content__block__text {
+    margin-top: 15px;
+  }
+
+  .content__button {
+    margin-bottom: 42px;
+  }
+}
+@media (max-width: 400px) {
+  .content {
+    width: 91.5%;
+  }
+}
